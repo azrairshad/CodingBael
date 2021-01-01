@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../weather_test_app/weather_test_app/wc.iml" filepath="$PROJECT_DIR$/../../weather_test_app/weather_test_app/wc.iml" />
+      <module fileurl="file://D:/baeldung/git/tutorials/weather_test_app/weather_test_app/wc.iml" filepath="D:/baeldung/git/tutorials/weather_test_app/weather_test_app/wc.iml" />
+    </modules>
+  </component>
+</project>

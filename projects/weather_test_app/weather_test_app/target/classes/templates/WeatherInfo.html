@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Weather Test Application</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <table class="header" width="100%">
+        <tr>
+            <td width="20%">
+                <div align="center"><h1>Weather</h1><br />
+                    <br/></div>
+            </td>
+            <td align="right" width="70%">
+                <div>
+                    <h1><span th:text="${weatherUpdate.city}"></span></h1><br />
+                    <h2><span th:text="${weatherUpdate.temperature}"></span> <br />
+                        <span th:text="${weatherUpdate.weatherCondition}"></span>
+                    </h2>
+                </div>
+            </td>
+
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td width="25%" valign="top">
+    <table class="container"  align="center">
+       <tr>
+           <td>
+               <p><a href="/weather/export/csv">Download Weather update as CSV</a></p>
+           </td>
+       </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td align="right">
+                            <form th:method="POST" th:action="@{/weather/history}">
+                                <label> Weather History: </label><br/>
+                                <select id="city" class="form-control">
+                                    <option value="San Francisco" selected>San Francisco</option>
+                                </select><br/>
+                                <select id="state" class="form-control">
+                                    <option value="CA" selected>CA</option>
+                                </select><br/>
+                                <select id="country" class="form-control">
+                                    <option value="USA" selected>USA</option>
+                                </select><br/>
+                                <input type="submit" id="submit" value="Submit" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+       <tr>
+           <td align="right" width="10%">
+               <form th:action="@{/logout}" method="post">
+                   <input type="submit" value="Sign Out"/>
+               </form>
+           </td>
+
+       </tr>
+    </table>
+    </td>
+    <td width="75%" >
+    <table class="weather" width="100%">
+        <tr>
+
+            <td width="100%" valign="top">
+            <div class="container"  align="center"><h2>Weather History</h2><br/></div>
+                <table width="100%">
+                    <tr th:each="w: ${weatherUpdates}">
+                        <td width="30%" class="data"><span th:text="${w.temperature}"> F</span></td>
+                        <td width="40%" class="data"><span th:text="${w.weatherCondition}"></span></td>
+                        <td width="40%" class="data"><span th:text="${#dates.format(w.weatherTime, 'dd-MMM-yyyy hh:mm:ss')}"></span></td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

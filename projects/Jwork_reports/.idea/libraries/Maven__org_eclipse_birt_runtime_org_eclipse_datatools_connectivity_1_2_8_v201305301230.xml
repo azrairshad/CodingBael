@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.birt.runtime:org.eclipse.datatools.connectivity:1.2.8.v201305301230">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.datatools.connectivity/1.2.8.v201305301230/org.eclipse.datatools.connectivity-1.2.8.v201305301230.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.datatools.connectivity/1.2.8.v201305301230/org.eclipse.datatools.connectivity-1.2.8.v201305301230-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.eclipse.datatools.connectivity/1.2.8.v201305301230/org.eclipse.datatools.connectivity-1.2.8.v201305301230-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

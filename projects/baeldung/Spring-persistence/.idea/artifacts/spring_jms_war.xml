@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-jms:war">
+    <output-path>D:/baeldung/git/tutorial_fork/tutorials/spring-jms/target</output-path>
+    <root id="archive" name="spring-jms.war">
+      <element id="artifact" artifact-name="spring-jms:war exploded" />
+    </root>
+  </artifact>
+</component>

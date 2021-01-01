@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-1/src/main/main.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-1/src/main/main.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-password/src/main/main1.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-password/src/main/main1.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-resource-demo/src/main/main2.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-resource-demo/src/main/main2.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-2/src/main/main3.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-2/src/main/main3.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-authorization-server/src/main/main4.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-authorization-server/src/main/main4.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-implicit/src/main/main5.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-implicit/src/main/main5.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-server-demo/src/main/main6.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-server-demo/src/main/main6.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-implicit/src/test/test.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-implicit/src/test/test.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-authorization-server/src/test/test1.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-authorization-server/src/test/test1.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-1/src/test/test2.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-1/src/test/test2.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-password/src/test/test3.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/clients-angularjs/oauth-ui-password/src/test/test3.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-resource-demo/src/test/test4.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/demo/spring-security-oauth-resource-demo/src/test/test4.iml" />
+      <module fileurl="file://D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-2/src/test/test5.iml" filepath="D:/baeldung/spring-oauth/spring-security-oauth/oauth-resource-server-2/src/test/test5.iml" />
+    </modules>
+  </component>
+</project>

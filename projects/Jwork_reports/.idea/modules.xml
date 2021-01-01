@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/equivant_git/report_birt/jworks-reports/jworks-reports.iml" filepath="D:/equivant_git/report_birt/jworks-reports/jworks-reports.iml" />
+      <module fileurl="file://D:/equivant_git/report_birt/jworks-reports/jworks-reports-app/jworks-reports-app.iml" filepath="D:/equivant_git/report_birt/jworks-reports/jworks-reports-app/jworks-reports-app.iml" />
+      <module fileurl="file://D:/equivant_git/report_birt/jworks-reports/jworks-reports-reports/jworks-reports-reports.iml" filepath="D:/equivant_git/report_birt/jworks-reports/jworks-reports-reports/jworks-reports-reports.iml" />
+      <module fileurl="file://D:/equivant_git/report_birt/jworks-reports/jworks-reports-server/jworks-reports-server.iml" filepath="D:/equivant_git/report_birt/jworks-reports/jworks-reports-server/jworks-reports-server.iml" />
+    </modules>
+  </component>
+</project>
